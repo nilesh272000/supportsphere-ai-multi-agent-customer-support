@@ -1,0 +1,20 @@
+[
+  {
+    "name": "invoice lookup",
+    "input": "Check invoice INV-1042",
+    "expected_route": "billing",
+    "expected_phrase": "paid"
+  },
+  {
+    "name": "order tracking",
+    "input": "Where is my order ORD-8871?",
+    "expected_route": "shipping",
+    "expected_phrase": "in transit"
+  },
+  {
+    "name": "refund policy",
+    "input": "What is your refund policy?",
+    "expected_route": "refunds",
+    "expected_phrase": "30 days"
+  }
+]
